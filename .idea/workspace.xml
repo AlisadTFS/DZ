@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce4d4a2b-f979-4fb2-8b2c-152bf90b68ca" name="Changes" comment="" />
+    <list default="true" id="ce4d4a2b-f979-4fb2-8b2c-152bf90b68ca" name="Changes" comment="Добавление двух заданий" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +9,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f713a7b4-1bfc-49d3-8326-21a01153e75c" />
+        <option name="url" value="https://github.com/AlisadTFS/DZ.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,6 +87,29 @@
       <option name="presentableId" value="Default" />
       <updated>1639062829131</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавление двух заданий">
+      <created>1639063747653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639063747653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавление двух заданий" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление двух заданий" />
   </component>
 </project>
