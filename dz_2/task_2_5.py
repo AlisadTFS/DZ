@@ -20,18 +20,9 @@ def format_list(numb):
 
 list_price = [8.15, 98.9, 999.9, 888.8, 54.8, 456, 16, 86.45, 100.57, 1.09, ]
 for price in list_price:
-    if int(price) < 10:
-        str_price = f'0{int(price)}'
-    else:
-        str_price = f'{int(price)}'
-    if format_list(price) < 10:
-        str_k = f'0{format_list(price)}'
-    else:
-        str_k = f'{format_list(price)}'
-    print(f'{str_price} руб {str_k} коп.', end=',')
-
+    ls = str(price).split('.')
+    print(f'{int(price):02d} руб {format_list(price):02d} коп.', end=', ')
 print()
-
 print(list_price, id(list_price))
 list_price.sort()
 print(list_price, id(list_price))
@@ -39,4 +30,4 @@ print(list_price, id(list_price))
 list_price_lower = sorted(list_price, reverse=True)
 print(list_price_lower, id(list_price_lower))
 
-print(sorted(list_price, reverse=True)[:5])
+print(list_price[-5:])
